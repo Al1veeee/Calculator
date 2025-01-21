@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="button_name">Сложение</string>
+    <string name="button_name1">Вычитание</string>
+    <string name="button_name2">Умножение</string>
+    <string name="button_name3">Деление</string>
+    <string name="textView">Введите числа</string>
+    <string name="clear">Очистить</string>
+    <string name="digit1">Первое число</string>
+    <string name="digit2">Второе число</string>
+
+</resources>
