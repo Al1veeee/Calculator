@@ -135,4 +135,15 @@
 
 ![image](https://github.com/user-attachments/assets/0192ce2e-9650-40dc-91e3-948dc7716c96)
 
+## 9. Контакты
+
+
+•   *Al1veeee*
+
+
+•   *alimkhanov.de@mail.ru*
+
+
+•   *https://github.com/Al1veeee*
+
 
