@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView resultTextView;
     private EditText editTextText, editTextText2;
-    private Button button1, button2, button3, button4;
+    private Button button, button1, button2, button3, button4;
     private Button button_clear;
 
     @SuppressLint("MissingInflatedId")
@@ -31,12 +31,19 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = findViewById(R.id.resultTextView);
         editTextText = findViewById(R.id.editTextText);
         editTextText2 = findViewById(R.id.editTextText2);
+        button = findViewById(R.id.button);
         button1 = findViewById(R.id.button1);
         button2 = findViewById(R.id.button2);
         button3 = findViewById(R.id.button3);
         button4 = findViewById(R.id.button4);
         button_clear = findViewById(R.id.button_clear);
 
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                calculate("*");
+            }
+        });
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,14 +62,14 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calculate("*");
+                calculate("/");
             }
         });
 
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calculate("/");
+                calculate("%");
             }
         });
         button_clear.setOnClickListener(new View.OnClickListener() {
@@ -107,6 +114,8 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             res = num1/num2;
+        } else if (operation.equals("%")) {
+            res = num1 % num2;
         }
         resultTextView.setText(String.valueOf(res));
     }
