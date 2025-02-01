@@ -134,11 +134,11 @@
   •  **Среда разработки:** *Android Studio*
 
 ## 8. Скриншоты
+<img src="https://github.com/user-attachments/assets/32002f12-df72-46f1-9b32-0951f483de12" style=" width:400px ; height:800px " />
+<img src="https://github.com/user-attachments/assets/03a12083-02c8-4f8f-853c-8d953a006173" style=" width:400px ; height:800px " />
+<img src="https://github.com/user-attachments/assets/2a943860-0d28-4a33-9e46-ebc575f2fd8a" style=" width:400px ; height:800px " />
+<img src="https://github.com/user-attachments/assets/5d5ef8ba-546f-4dea-b91a-c7d845932c80" style=" width:400px ; height:800px " />
 
-<img src="https://github.com/user-attachments/assets/2a943860-0d28-4a33-9e46-ebc575f2fd8a" style=" width:200px ; height:400px " />
-<img src="https://github.com/user-attachments/assets/5d5ef8ba-546f-4dea-b91a-c7d845932c80" style=" width:200px ; height:400px " />
-<img src="https://github.com/user-attachments/assets/a11503f9-6d92-4133-b991-b4348010146b" style=" width:200px ; height:400px " />
-<img src="https://github.com/user-attachments/assets/fc5fceb5-1c0f-4047-bddf-a0d8010633db" style=" width:200px ; height:400px " />
 
 ## 9. Контакты
 
